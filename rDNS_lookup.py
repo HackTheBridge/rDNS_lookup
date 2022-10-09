@@ -26,7 +26,6 @@ for line in f:
 	rDNS = os.system(("dnsrecon -r " + IP_range + " -n " + line))
 f.close()
 
-os.system("rm scan.txt dns_up.txt")
-
-print("Scan Completed! You're welcome bro!")
+print("#" * 50)
+print("\nScan Completed! You're welcome!")
 
