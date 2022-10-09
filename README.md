@@ -10,4 +10,5 @@ dnsrecon
 
 ## Usage
 `python3 rDNS_lookup.py`
+
 `Enter CIDR: 8.8.8.0/24` < must be in this format. Will not take an IP range.
